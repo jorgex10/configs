@@ -1,4 +1,4 @@
-## Here we can find some general configurations for my diary use tools
+## Here we can find some general settings for my daily use tools.
 
 ### .bash_profile
 
