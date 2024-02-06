@@ -4,6 +4,7 @@
     "**/bower_components": true,
     "**/*.code-search": true
   },
+  "editor.lineHeight": 1.65,
   "editor.linkedEditing": true,
   "search.useIgnoreFiles": false,
   "explorer.openEditors.visible": 1,
@@ -12,7 +13,6 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": false,
   "workbench.iconTheme": "vscode-icons",
-  "editor.fontLigatures": true,
   "files.autoSave": "onFocusChange",
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
@@ -57,75 +57,30 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["comment", "comment.block"],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#ff1493"
-        }
-      },
-      {
         "scope": [
-          "keyword.operator.logical",
-          "keyword.operator.arithmetic",
-          "keyword.operator.assignment",
-          "keyword.operator.bitwise"
+          "comment",
+          "constant.language",
+          "keyword.control",
+          "keyword.operator",
+          "keyword.other",
+          "keyword.operator.new",
+          "storage.type.enum",
+          "variable.language",
+          "entity.other.attribute-name",
+          "storage.type",
+          "storage.modifier",
+          "storage.type.function",
+          "storage.type.class",
+          "storage.type.interface"
         ],
         "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": ["comment", "comment.block"],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#ff1493"
-        }
-      },
-      {
-        "scope": [
-          "keyword.operator.logical",
-          "keyword.operator.arithmetic",
-          "keyword.operator.assignment",
-          "keyword.operator.bitwise"
-        ],
-        "settings": {
-          "fontStyle": ""
+          "fontStyle": "bold italic"
         }
       },
       {
         "scope": ["comment", "comment.block"],
         "settings": {
-          "fontStyle": "italic",
-          "foreground": "#ff1493"
-        }
-      },
-      {
-        "scope": [
-          "keyword.operator.logical",
-          "keyword.operator.arithmetic",
-          "keyword.operator.assignment",
-          "keyword.operator.bitwise"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": ["comment", "comment.block"],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#ff1493"
-        }
-      },
-      {
-        "scope": [
-          "keyword.operator.logical",
-          "keyword.operator.arithmetic",
-          "keyword.operator.assignment",
-          "keyword.operator.bitwise"
-        ],
-        "settings": {
-          "fontStyle": ""
+          "fontStyle": "italic"
         }
       },
       {
@@ -142,6 +97,7 @@
   "extensions.ignoreRecommendations": true,
   "editor.wordWrap": "on",
   "editor.fontFamily": "Dank Mono",
+  "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Atom One Dark",
   "files.trimTrailingWhitespace": true,
@@ -152,7 +108,7 @@
   "[ruby]": {
     "editor.defaultFormatter": "misogi.ruby-rubocop"
   },
-  "ruby.rubocop.executePath": "/Users/jorgecalvo/.rvm/gems/ruby-3.0.0@jwt-auth/bin/",
-  "ruby.rubocop.configFilePath": "/Users/jorgecalvo/dev/Personal/jwt-auth/.rubocop.yml",
+  // "ruby.rubocop.executePath": "",
+  // "ruby.rubocop.configFilePath": "",
   "ruby.rubocop.onSave": true
 }
