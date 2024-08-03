@@ -4,7 +4,7 @@
     "**/bower_components": true,
     "**/*.code-search": true
   },
-  "editor.lineHeight": 1.65,
+  "explorer.compactFolders": false,
   "editor.linkedEditing": true,
   "search.useIgnoreFiles": false,
   "explorer.openEditors.visible": 1,
@@ -74,7 +74,7 @@
           "storage.type.interface"
         ],
         "settings": {
-          "fontStyle": "bold italic"
+          "fontStyle": "italic"
         }
       },
       {
@@ -99,9 +99,10 @@
   "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
-  "workbench.colorTheme": "Atom One Dark",
   "files.trimTrailingWhitespace": true,
-  "rubyLsp.rubyVersionManager": "rvm",
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "rvm"
+  },
   "rubyLsp.enabledFeatures": {
     "inlayHint": true
   },
@@ -110,5 +111,7 @@
   },
   // "ruby.rubocop.executePath": "",
   // "ruby.rubocop.configFilePath": "",
-  "ruby.rubocop.onSave": true
+  "ruby.rubocop.onSave": true,
+  "editor.lineHeight": 1.8,
+  "editor.fontSize": 12
 }
